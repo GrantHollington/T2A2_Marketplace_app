@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <%# navbar found in partials folder in a partials file %>
+    <%= render "partials/navbar" %>
+    <%# devise flash message - alert%>
+    <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
 </html>
