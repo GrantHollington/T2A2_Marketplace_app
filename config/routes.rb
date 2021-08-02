@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :profiles
   devise_for :users
   # "root home#page" to make the home page the default page
    root 'home#page'
